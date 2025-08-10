@@ -5,13 +5,11 @@
   <title>MLSA Admin & Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
     body { background: #f4f7fa; color: #333; }
     header { background: #004aad; color: white; padding: 20px; text-align: center; }
     nav { background: #003577; padding: 10px; text-align: center; }
     nav a {
-
 	    color: white;
       margin: 0 15px;
       text-decoration: none;
@@ -23,7 +21,6 @@
     h2 { margin-bottom: 15px; color: #004aad; }
 
     /* Admin Panel */
-
     .admin-panel { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 30px; }
     .search-bar input {
       width: 100%;
@@ -32,9 +29,7 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
-
     /* Table Styling */
-
     table {
       width: 100%;
       border-collapse: collapse;
@@ -138,8 +133,9 @@
 	    <td>#1002</td>
             <td>shwetha Verma</td>
             <td>rahulv@example.com</td>
+<<<<<<< HEAD
 	    
-
+=======
 	    <td>rahulv@example.com</td>
             <td>AI Workshop</td>
            </tr>
@@ -169,7 +165,7 @@
 
   <!-- Footer -->
   <footer>
-	  <p>Contact with us</p>
+	  <p>Connect with us</p>
     <div class="social-icons">
 	     <a href="#">LinkedIn</a>
       <a href="#">Facebook</a>
@@ -181,3 +177,4 @@
 
 </body>
 </html>
+>>>>>>> contact
