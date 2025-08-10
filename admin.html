@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
 
+
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
     body { background: #f4f7fa; color: #333; }
     header { background: #004aad; color: white; padding: 20px; text-align: center; }
@@ -15,8 +16,10 @@
 	    color: white;
       margin: 0 15px;
       text-decoration: none;
+
       font-weight: bold;
     }
+
     .container { max-width: 1200px; margin: auto; padding: 20px; }
     h2 { margin-bottom: 15px; color: #004aad; }
  .container { max-width: 1200px; margin: auto; padding: 20px; }
@@ -33,6 +36,7 @@
       border-radius: 5px;
     }
 
+
     /* Table Styling */
 
     table {
@@ -45,24 +49,29 @@
       padding: 12px;
       border: 1px solid #ddd;
       text-align: left;
-    }
+    
+     }
 
       th {
       background-color: #004aad;
       color: white;
     }
 
+     
       tr:nth-child(even) {
       background-color: #f2f2f2;
     }
 
+
 /* Contact Section */
-    .contact-form {
+    
+      .contact-form {
       background: #kkk;
       padding: 25px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-bottom: 30px;
+     margin-bottom: 30px;
+
     }
 
     .contact-form input, .contact-form textarea {
@@ -81,6 +90,7 @@
       cursor: pointer;
     }
 
+
  /* Footer */
     footer {
       background: #002855;
@@ -88,15 +98,18 @@
       text-align: center;
       padding: 30px;
     }
+
     .social-icons a {
 	     color: white;
       margin: 0 10px;
       font-size: 16px;
       text-decoration: none;
     }
+
    @media (max-width: 600px) {
       nav a { display: block; margin: 10px 0; }
     }
+
   </style>
 </head>
 <body>
@@ -109,6 +122,7 @@
 <!-- Navigation -->
 
   <nav>
+
     <a href="#">Dashboard</a>
     <a href="#">Participants</a>
     <a href="#">Settings</a>
@@ -116,7 +130,9 @@
   </nav>
 
 
+
   <div class="container">
+
   <!-- Admin Panel Section -->
     <section class="admin-panel">
       <h2>Registered Participants</h2>
@@ -124,6 +140,7 @@
 <div class="search-bar">
         <input type="text" placeholder="Search by name or email...">
       </div>
+
 <table>
        
 	<thead>
@@ -134,6 +151,8 @@
             <th>Event</th>
 	     <th>Registered On</th>
           </tr>
+
+
         </thead>
 
 	<tbody>
@@ -144,6 +163,7 @@
             <td>MLSA Bootcamp</td>
             <td>Aug 01, 2025</td>
           </tr>
+
 
           <tr>
 	    <td>#1002</td>
@@ -172,6 +192,7 @@
     <section class="contact-form" id="contact">
       <h2>Contact Us</h2>
 
+
 <form>
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
@@ -190,6 +211,7 @@
       <a href="#">Twitter</a>
       <a href="#">Instagram</a>
  </div>
+
     <p>&copy; 2025 MLSA | All rights reserved</p>
   </footer>
 
@@ -220,6 +242,14 @@
   <td>kritika@example.com</td>
   <td>DevOps Day</td>
   <td>Aug 07, 2025</td>
+</tr>
+
+<tr>
+  <td>#1008</td>
+  <td>Raj Patel</td>
+  <td>raj@example.com</td>
+  <td>MLSA Hackathon</td>
+  <td>Aug 08, 2025</td>
 </tr>
 
 </body>
